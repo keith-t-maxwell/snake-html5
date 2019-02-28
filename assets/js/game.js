@@ -7,7 +7,7 @@ var Game = {
 
     preload: function ()
     {
-        / // Здесь мы загружаем все необходимые ресурсы для уровня 
+        // Здесь мы загружаем все необходимые ресурсы для уровня 
         // В нашем случае, это просто два квадрата: один для тела змейки и другой для яблока 
         game.load.image('snake', './assets/images/snake.png');
         game.load.image('apple', './assets/images/apple.png');
